@@ -1,0 +1,13 @@
+train: D:/veena_stage1_srt_split/train
+val: D:/veena_stage1_srt_split/val
+
+nc: 24  # number of classes
+names: [ '2-Axle Trucks','2_Wheeler','3-Axle Trucks (Rigid)',
+    '3-Axle Trucks (Trailer)','3-Wheeler (Auto)',
+    '4-Axle Trucks (Rigid)','4-Axle Trucks (Trailer)',
+    '5+Axle Trucks (Trailer)','5-Axle Trucks (Trailer)',
+    'Ambulance-Fire-Funeral','Buses 2-Axle','Car-Van-Jeep',
+    'Cycle-Bicycle','HCM-EME','Hand Drawn-Animal Drawn Cart',
+    'LCV (4-Tyre)','LCV (6-Tyre)','LCV (Type-3)','Mini LCV',
+    'Mini-Buses','Person','Shared Auto (4-Wheeler)',
+    'Tractor','Tractor Trailer']  # replace with your classes

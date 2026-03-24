@@ -1,0 +1,24 @@
+# Virtual environment
+trf/
+
+# Models
+*.pt
+*.pth
+
+# Videos
+*.mp4
+*.avi
+
+# Executables
+*.exe
+
+# Output
+output_videos/
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/

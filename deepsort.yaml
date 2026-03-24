@@ -1,0 +1,7 @@
+# DeepSORT tracker configuration for YOLOv8
+max_dist: 0.2            # maximum cosine distance for appearance matching
+max_iou_distance: 0.7    # max IOU distance for matching
+max_age: 70              # number of frames to keep a track without detections
+n_init: 3                # number of frames before a track is confirmed
+nn_budget: 100            # max number of appearance descriptors
+use_cuda: True           # use GPU for feature extraction if available

@@ -1,0 +1,47 @@
+train: Z:/Highways/Dataset/train/images
+val: Z:/Highways/Dataset/val/images
+
+names:
+  0: Bike
+  1: Auto_3_Wheeler
+  2: Shared_Auto_4_Wheeler
+  3: Car
+  4: Van
+  5: Jeep
+  6: Buses_2_Axle
+  7: Buses_3_Axle
+  8: Ambulance
+  9: Firetruck
+  10: 2_Axle_Truck
+  11: 3_Axle_Truck
+  12: 4_Axle_Truck
+  13: 5_Axle_Truck
+  14: 5_Plus_Axle_Truck
+  15: 3_Axle_Trailer
+  16: 4_Axle_Trailer
+  17: 5_Axle_Trailer
+  18: 5_Plus_Axle_Trailer
+  19: HCM/EME
+  20: LCV
+  21: Tractor
+  22: Tractor_With_Trailer
+  23: Bicycle
+  24: Handcart
+  25: Person
+
+# Added class weights to fix imbalance without augmentation
+class_weights:
+  7: 10     # Buses_3_Axle
+  9: 10     # Firetruck
+  11: 5     # 3_Axle_Truck
+  12: 5     # 4_Axle_Truck
+  13: 8     # 5_Axle_Truck
+  14: 8     # 5_Plus_Axle_Truck
+  15: 10    # 3_Axle_Trailer
+  16: 10    # 4_Axle_Trailer
+  17: 10    # 5_Axle_Trailer
+  18: 10    # 5_Plus_Axle_Trailer
+  19: 5     # HCM/EME
+  21: 5     # Tractor
+  22: 5     # Tractor_With_Trailer
+  24: 5     # Handcart
